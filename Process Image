@@ -1,10 +1,12 @@
-1. 读取带地理坐标的图像
+1. 读写带地理坐标的图像
 geotiffread()
 geotiffwrite()
-定义空间参考信息
-georasterref(,col)
-
-
+2. 定义空间参考信息
+法1：georasterref(,col)
+法2：georefcells    地理坐标
+     maprefcells    投影坐标
+     
+     
 
 
 
