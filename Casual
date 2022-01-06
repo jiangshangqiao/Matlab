@@ -2,7 +2,9 @@
 x = [aaaa, ...
     bbbb, ...
     ccc];
-2. 
+2. 矩阵旋转
+rot90(A,-1/-2) 旋转不同度数
+A.' or transpose(A)   转置
 
 
 
