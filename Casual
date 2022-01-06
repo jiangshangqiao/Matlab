@@ -16,5 +16,15 @@ struct
 cell
 4. 设置Nodata
 e.g. A[A==999] = NaN
+5. 跳过异常
+try
+
+catch
+
+end
+
+
+
+
 
 
