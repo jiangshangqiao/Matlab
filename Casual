@@ -3,11 +3,18 @@ x = [aaaa, ...
     bbbb, ...
     ccc];
 2. 矩阵旋转
-rot90(A,-1/-2) 旋转不同度数
+rot90(A,-1/-2/-3) 旋转90、180、270度
 A.' or transpose(A)   转置
-
-
-
-
+3. 数据类型
+int8；uint8；int16；uint16；int32；uint32；int64；uint64
+通过intmax(class)和intmin(class) 函数返回该类整型的最大值和最小值，例如intmax(‘int8’)=127
+single；double
+logical
+char
+日期和时间
+struct
+cell
+4. 设置Nodata
+e.g. A[A==999] = NaN
 
 
