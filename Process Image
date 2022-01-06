@@ -1,0 +1,21 @@
+1. 读取带地理坐标的图像
+geotiffread()
+geotiffwrite()
+定义空间参考信息
+georasterref(,col)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
