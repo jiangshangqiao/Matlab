@@ -1,0 +1,10 @@
+1. Convert hours since 1900-01-01 00:00:00.0 to datetime?
+Method1:
+time=ncread('era5_so3.nc','time');
+dtime = datetime(1900, 1, 1, time, 0, 0);
+Method2:
+dtime = datevec(time)    # preset date (January 0, 0000) in the proleptic ISO calendar.
+
+2. Convert datetime to integer hours?
+dhour = datenum(time)    # preset date (January 0, 0000) in the proleptic ISO calendar.
+
